@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="productItem">
 		<div class="productItem__wrap">
 			<figure class="productItem__imgWrap">
 				<img

@@ -4,7 +4,7 @@
 			<ProductItem
 				v-for="(item, index) in data"
 				:key="index"
-				:class="['productItem', index === 0 ? 'productItem-lg' : 'productItem-sm']"
+				:class="[index === 0 ? 'productItem-lg' : 'productItem-sm']"
 				:parentData="item"
 			/>
 		</section>
